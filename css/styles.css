@@ -10596,6 +10596,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -10685,9 +10686,10 @@ header.masthead .masthead-heading {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+/* modificar tamaño modal */
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
+  /* margin: 1rem;
+  max-width: 100vw; */
 }
 .portfolio-modal .modal-content {
   padding-top: 6rem;

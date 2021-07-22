@@ -9,8 +9,13 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>IFOJ</title>
+
+
+
+
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
+    
     <script
       src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
       crossorigin="anonymous"
@@ -28,16 +33,29 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    
   </head>
-  <body id="page-top">
+  <body id="page-top" >
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #a71d2a;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #fff;">
       <div class="">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"
-          ><span style="color: aliceblue"
-            >Instituto Francisco Orozco y Jiménez</span
-          ></a
-        >
+
+        <img src="./assets/img/logoIfoj.jpg" class="img-fluid" style="width: 5rem;" alt="" srcset="">
+        <a class="navbar-brand js-scroll-trigger " href="#page-top">
+          
+          
+          <span class="d-lg-none" style="color: var(--danger); font-size: small;">
+            Instituto Francisco Orozco y Jiménez  
+          </span>
+
+          
+          <span class="d-none d-lg-block" style="color: var(--danger)">
+            Instituto Francisco Orozco y Jiménez
+          </span>
+
+         
+        </a>
+        <div>
         <button
           class="navbar-toggler navbar-toggler-right"
           type="button"
@@ -45,131 +63,265 @@
           data-target="#navbarResponsive"
           aria-controls="navbarResponsive"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars ml-1"></i>
         </button>
+</div>
         <div class="collapse navbar-collapse" id="navbarResponsive" style="background-color: #a71d2a;">
           <ul class="navbar-nav text-uppercase ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#page-top">Inicio</a>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#valores">Valores</a>
             </li>
+          
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#mensaneins"
-                >Mensaje Institucional</a
-              >
+              <a class="nav-link js-scroll-trigger" href="#competencias">Competencias Formativas</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#porque">¿Por qué estudiar en el ifoj?</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#directorio">Directorio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#historia">Historia</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#ejes">Ejes del proyecto educativo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#descultural">Desarrollo Cultural</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#direactual">Directorio Actual</a>
-            </li>
+         
           </ul>
         </div>
       </div>
+      
     </nav>
     <!-- Masthead-->
+    <br><br><br><br><br>
     <header class="masthead">
       <div class="container">
         <div class="masthead-subheading">¡Bienvenidos al IFOJ!</div>
         <div class="masthead-heading text-uppercase">
           Ciencia - Virtud - Heroísmo
         </div>
-        <a
-          class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-          href="#valores"
-          >¿Quiero saber más?</a
-        >
+
+        <button type="button" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#portfolioModal1">
+          ¡ Nuestros logros !
+        </button>
+
+
       </div>
     </header>
     <!-- Services-->
     <section class="page-section" id="valores">
       <div class="container">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase">Nuestros valores</h2>
+          <h2 class="section-heading ">Nuestros valores</h2>
           <h3 class="section-subheading text-muted">
-            En el ifoj es importante darte a conocer los principios que rigen a
-            nuestro instituto.
+            Formamos en valores inspirados en el Evangelio y en la persona de S.E. Mons. Francisco Orozco y Jiménez, 5º arzobispo de Guadalajara.
           </h3>
         </div>
         <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa-solid fa-book"></i>
-            </span>
-            <h4 class="my-3">Misión</h4>
-            <p class="text-muted" style="color:black !important" >
-              Ofrecer un espacio “de formación y promoción integral, mediante la
-              asimilación sistemática y crítica de la cultura” (Documento de
-              Aparecida, 329), en base a una excelencia académica que “no sólo
-              presente el saber por adquirir, sino también valores por asimilar
-              y verdades por descubrir”, poniendo “de relieve la dimensión
-              humano–ética y religiosa de la cultura”.
-            </p>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem; border: none;">
+              <img src="/assets/img/ciencia.JPG" style=" align-self: center;" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Ciencia</h5>
+                <p class="card-text">
+                  Dotados de los saberes necesarios para su edad, que les ayuden a establecer
+                  una relación de comunión con Dios, consigo mismo, con los hombres y el mundo
+              </div>
+            </div>
           </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa-solid fa-book"></i>
-            </span>
-            <h4 class="my-3">Visión</h4>
-            <p class="text-muted" style="color:black !important">
-              Mantener un nivel de excelencia académica, para ser una opción de
-              calidad atractiva para los jóvenes, así como lograr la formación
-              de jóvenes adaptados a su tiempo y capaces de responder a los
-              retos que la sociedad les presenta, humanizando su mundo,
-              produciendo cultura, transformando la sociedad y construyendo la
-              historia (cfr. Documento de Aparecida n. 30), preparándolos para
-              insertarse en el nivel educativo superior.
-            </p>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem; border: none;">
+              <img src="/assets/img/virtud.JPG" style="  align-self: center;" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Virtud</h5>
+                <p class="card-text">
+                  Dotados de fuerza interior y de cualidades que los lleven a actuar de acuerdo a la recta razón y fe, con un fuerte compromiso social, un profundo amor por el prójimo y cuidado del medio ambiente
+              </div>
+            </div>
           </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa-solid fa-book"></i>
-            </span>
-            <h4 class="my-3">Valores</h4>
-            <p class="text-muted" style="color:black !important">
-              El respeto, la honestidad, la constancia, la veracidad, el trabajo, la responsabilidad, la cooperación y la tolerancia; los cuales están inspirados por el Evangelio y por la persona de S.E. Mons. Francisco Orozco y Jiménez (5º arzobispo de Guadalajara, 1864-1936), con el lema: “ciencia, virtud, heroísmo”, el IFOJ se inspira para formar jóvenes en la: Ciencia: dotados de los saberes necesarios para su edad, que les ayuden a establecer una relación de comunión con Dios, consigo mismo, con los hombres y el mundo. Virtud: dotados de fuerza interior y de cualidades que los lleven a actuar de acuerdo a la recta razón y fe. Heroísmo: congruentes con sus principios e ideales y capaces de dar testimonio heroico del Evangelio.
-            </p>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem; border: none;">
+              <img src="/assets/img/heroismo.JPG" style="  align-self: center;" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Heroísmo</h5>
+                <p class="card-text">
+                  Congruentes con sus principios e ideales y capaces de dar testimonio heroico del Evangelio 
+                </div>
+            </div>
           </div>
+
         </div>
+      </div>
+      <div class="container" style="padding: 2rem;">
+        <div class="text-center">
+          
+        </div>
+  <div class="card mb-3" style="border: none;" >
+    <div class="row g-0">
+      <div class="col-md-12 col-lg-12">
+        <div class="text-center">
+          <h2 class="section-heading" style="font-style: italic;color: var(--danger);">Educación y formación integral de inspiración humana y cristiana.</h2>
+        <br>
+        </div>
+        
+        <img src="/assets/img/lema.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-12 col-lg-12">
+        <div class="card-body">
+         
+          <div class="text-center">
+         
+          
+          <a
+          class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+          href="mensaje.html"
+          >Mensaje institucional</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </section>
+
+   
+    <!-- inicio competencias formativas -->
+
+    <section class="page-section" id="competencias">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading ">Competencias formativas</h2><br>
+        
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem; border: none;">
+              <img src="/assets/img/repo.png" style="width: 6rem; align-self: center;" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Responsabilidad personal y social</h5>
+                <p class="card-text">
+                  Sé ciudadano del mundo y brinda lo mejor de ti
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem; border: none;">
+              <img src="/assets/img/Colabora.png" style="width: 6rem; align-self: center;" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Trabajo colaborativo</h5>
+                <p class="card-text">
+                  Comparte y aprende de los demás
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem; border: none;">
+              <img src="/assets/img/autoconocimiento.png" style="width: 6rem; align-self: center;" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Autoconocimiento e intelegiencia emocional</h5>
+                <p class="card-text">
+                  Gestiona, controla y expresa tus emociones
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+<br>
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8">
+            <div class="card" style=" border: none;">
+              <img src="/assets/img/fe.png" style="width: 6rem; align-self: center;" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Fe y vida</h5>
+                <p class="card-text">
+                  Vive y comparte tu fe con compromiso humanitario
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2"></div>
+
+          </div>
+<br>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem; border: none;">
+                <img src="/assets/img/pensamiento.png" style="width: 6rem; align-self: center;" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Pensamiento crítico y divergente</h5>
+                  <p class="card-text">
+                    Desarrolla soluciones con creatividad y compromiso
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem; border: none;">
+                <img src="/assets/img/inteligencia.png" style="width: 6rem; align-self: center;" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Inteligencia interpersonal</h5>
+                  <p class="card-text">
+                    Escucha ideas y expresa las tuyas con respeto y solidaridad
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem; border: none;">
+                <img src="/assets/img/Diciplina.png" style="width: 6rem; align-self: center;" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Disciplina positiva</h5>
+                  <p class="card-text">
+                    Desarrolla las habilidades y convicciones para ser un ciudadano íntegro en el siglo XXI
+                </div>
+              </div>
+            </div>
+  
+  
+          </div>
+
+
       </div>
     </section>
 
-    <!-- mensaje institucional -->
-    <section class="page-section" id="mensaneins" style="background-color: #F5F2F2;">
+     <!-- fin competencias formativas -->
+
+
+     <!-- inicio porque -->
+
+     <section class="page-section" id="porque">
       <div class="container">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase">Mensaje Institucional</h2>
-          <br>
+          <h2 class="section-heading text-uppercase">¿Por qué estudiar en el IFOJ?</h2>
+          <h3 class="section-subheading text-muted">
+            Ofrecemos una sólida formación con un novedoso proceso de enseñanza - aprendizaje,
+            un sistema de tutorías personalizadas, un programa de regularización para nivelar a nuestros 
+            alumnos, más el complemento de otras unidades como:
+          </h3>
         </div>
-        <p class="text-muted text-center" style="color:black !important" >Bienvenidos al Instituto Francisco Orozco y Jiménez (IFOJ), colegio de Educación Media Superior de la Diócesis de San Juan de los Lagos, con sede en Lagos de Moreno.
-
-          El IFOJ como colegio católico, quiere ser corresponsable del desarrollo social y cultural de la comunidad de la que forma parte, compartiendo los éxitos y las esperanzas, los sufrimientos, las dificultades y el esfuerzo para un auténtico progreso humano y comunitario; consciente de que contribuye en la pastoral de conjunto de la diócesis de San Juan de los Lagos, de manera muy concreta en la pastoral familiar y juvenil. El IFOJ recibe adolescentes y jóvenes que viven las dificultades del tiempo actual, hay alumnos que rehúyen el esfuerzo, incapaces de sacrificio, inconstantes y carentes; a esto se añade el aumento de sentimientos de apatía por la formación ética y religiosa.
-          
-          El IFOJ como preparatoria católica diocesana, busca un proyecto educativo que esté en condiciones de proporcionar a sus estudiantes los medios aptos para encontrar un puesto en una sociedad fuertemente caracterizada por conocimientos técnicos y científicos, pero al mismo tiempo, una sólida formación orientada cristianamente.
-          
-          El IFOJ se configura como escuela para la persona y de las personas, comparte la misión evangelizadora de la Iglesia, y fiel a la escuela católica, busca ser un lugar de evangelización y de educación integral. María, madre de Jesucristo, es la mujer a la que se le confió su cuidado y su formación humana, por ello el IFOJ en su proyecto educativo busca adhesión a Jesucristo y a María Santísima a través del camino educativo que ellos precisamente proponen con su vida y testimonio. Los sacerdotes: el padre director, los padres formadores del seminario y el diácono enviado al IFOJ cada año por el Obispo Diocesano están en condiciones de llevar a cabo una acción educativa particularmente eficaz dando ejemplo sin reservas y gratuitamente al servicio de los jóvenes en el espíritu de la consagración presbiteral y diaconal.
-          
-          El IFOJ busca que cada disciplina no presenta sólo un saber que adquirir, sino también valores que asimilar y verdades que descubrir. Todo esto, exige un ambiente caracterizado por la búsqueda y aceptación de la verdad, en el que los educadores, competentes, convencidos y coherentes, maestros de saber y de vida, sean imágenes, imperfectas desde luego, pero no desvaídas del único Maestro. En esta perspectiva, estamos trabajando para que todas las disciplinas contribuyen con su saber específico y propio, a la formación de personalidades maduras.
-          
-          Descubrimos la necesidad de estar a la altura del desafío que nos presenta el cambio de época y nos exige el diálogo con la cultura contemporánea, respondiendo a las necesidades culturales de nuestro tiempo y los capacite para ser generadores de cultura cristiana; por ello estamos en camino fortaleciendo la calidad educativa.
-          
-          Agradecemos a quienes trabajan en el IFOJ sus esfuerzos para crecer dándonos sin reservas a la tarea que a cada uno nos corresponde. Nuestra gratitud a los padres de familia y a sus hijos la opción que hacen por nuestra Institución. 
-          </p>
+      </div>    
     </section>
 
-    <!-- fin mensaje institucional -->
+
+     <!-- fin porque -->
+  
 
     <!-- historia-->
     <section class="page-section" id="historia">
@@ -365,7 +517,7 @@
 
 
      <!-- ejes del proyecto -->
-     <section class="page-section" id="ejes" style="background-color: #F5F2F2;">
+     <section class="page-section" id="ejes" ">
       <div class="container">
         <div class="text-center">
           <h2 class="section-heading text-uppercase">Ejes del Proyecto educativo IFOJ</h2>
@@ -395,8 +547,8 @@
     <!-- fin ejes del proyecto -->
 
     <!-- Desarrollo cultural-->
-    <section class="page-section bg-light" id="descultural">
-      <div class="container">
+    <section class="page-section " id="descultural" style="background-color: #FFFF" >
+      <div class="container" >
         <div class="text-center">
           <h2 class="section-heading text-uppercase">Desarrollo Cultural</h2>
           <h3 class="section-subheading text-muted">
@@ -454,7 +606,7 @@
     <!-- fin desarrollo cultural -->
 
 <!-- directorio actual -->
-<section class="page-section" id="direactual" style="background-color: #F5F2F2;">
+<section class="page-section" id="direactual" ">
   <div class="container">
     <div class="text-center">
       <h2 class="section-heading text-uppercase">Directorio Actual</h2>
@@ -573,9 +725,59 @@
         </div>
       </div>
     </div> -->
+
+    <!-- inicio distingimos -->
+
+    <div style="background-color:var(--danger); padding: 2rem;">
+      
+     <div class="container"> 
+        <div class="text-center">
+          <h2 style="color: white;">Nos distingimos por contar con:</h2><br>
+          <p style="color: white;">Un sistema de aprendizaje de la Lengua Inglesa por niveles
+          y en pequeños grupos. Partimos del nivel en que se encuentra cada estudiante. Pretendemos
+        que nuestros estudiantes concluyan la preparatoria aplicando la prueba TOEFL 
+        (Test of English as a Foreign Language).</p>
+        </div>
+        <div style= "text-align: center;">
+          <img src="./assets/img/TOEFL.png" style="width: 10rem;">
+          
+        </div>
+        <br><br>
+
+        <div class="text-center">
+           <p style="color: white;">Potenciar el estudio de las Matemáticas con el programa
+        DEHAN, sitema coreano de educación especializada en el desarrollo de las habilidades
+      matemáticas y de razonamiento lógico, crítico y analítico con la mejor innovación 
+    a nivel mundial. Matemáticas personalizadas para cada alumno.</p>
+        </div>
+        <div style= "text-align: center;">
+          <img src="./assets/img/dehanlogo.png" style="width: 10rem;">
+          
+        </div>
+      
+
+      <br><br>
+
+        <div class="text-center">
+           <p style="color: white;">Complementar la comprensión y velocidad lectora, acrecentando
+          la inteligencia divergente a través del sistema PROGRENTIS, plataforma de destrezas digitales
+        que desarrolla el pensamiento creativo, elevando los niveles de comprensión lectora y enseñando
+      a buscar y filtrar de mejor manera la información disponible en internet.</p>
+        </div>
+        <div style= "text-align: center;">
+          <img src="./assets/img/logo-progrentis.png" style="width: 10rem;">
+          
+        </div>
+        </div>
+
+        
+    </div>
+
+    <!-- fin distingimos -->
+    
     
     <!-- Footer-->
-    <footer class="footer py-4" style="background-color:#FFFFFF ">
+    <footer class="footer py-4" style="background-color: #Ffff; ">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-4 text-lg-left">
@@ -621,41 +823,36 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
-            <img src="assets/img/close-icon.svg" alt="Close modal" />
+            <img style="width: 2rem;" src="assets/img/close-icon.svg" alt="Close modal" />
           </div>
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <div class="modal-body">
                   <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Project Name</h2>
+                  <h2 class="text-uppercase">¡Nuestros logros!</h2>
                   <p class="item-intro text-muted">
-                    Lorem ipsum dolor sit amet consectetur.
+                    El ifoj se caracteriza por cuidar la calidad de la educación, por lo cual hemos sido reconocidos 
+                    con algunos reconocimentos:
                   </p>
                   <img
                     class="img-fluid d-block mx-auto"
-                    src="assets/img/portfolio/01-full.jpg"
-                    alt="..."
+                    src="assets/img/logros.JPG"
+                    style="width: 30rem;"
                   />
-                  <p>
-                    Use this area to describe your project. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Est blanditiis
-                    dolorem culpa incidunt minus dignissimos deserunt repellat
-                    aperiam quasi sunt officia expedita beatae cupiditate,
-                    maiores repudiandae, nostrum, reiciendis facere nemo!
-                  </p>
-                  <ul class="list-inline">
-                    <li>Date: January 2021</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
-                  </ul>
+                
+                  <ol class="list-inline">
+                    <li> 1.- A través de un estudio independiente en el año 2019 fuimos evaluados como la mejor
+                      preparatoria de calidad eductiva en los Altos de Jalisco.</li>
+                    
+                  </ol>
                   <button
                     class="btn btn-primary"
                     data-dismiss="modal"
                     type="button"
                   >
                     <i class="fas fa-times mr-1"></i>
-                    Close Project
+                    Cerrar
                   </button>
                 </div>
               </div>
@@ -664,276 +861,7 @@
         </div>
       </div>
     </div>
-    <!-- Modal 2-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal2"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <img src="assets/img/close-icon.svg" alt="Close modal" />
-          </div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </p>
-                  <img
-                    class="img-fluid d-block mx-auto"
-                    src="assets/img/portfolio/02-full.jpg"
-                    alt="..."
-                  />
-                  <p>
-                    Use this area to describe your project. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Est blanditiis
-                    dolorem culpa incidunt minus dignissimos deserunt repellat
-                    aperiam quasi sunt officia expedita beatae cupiditate,
-                    maiores repudiandae, nostrum, reiciendis facere nemo!
-                  </p>
-                  <ul class="list-inline">
-                    <li>Date: January 2021</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
-                  </ul>
-                  <button
-                    class="btn btn-primary"
-                    data-dismiss="modal"
-                    type="button"
-                  >
-                    <i class="fas fa-times mr-1"></i>
-                    Close Project
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal 3-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal3"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <img src="assets/img/close-icon.svg" alt="Close modal" />
-          </div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </p>
-                  <img
-                    class="img-fluid d-block mx-auto"
-                    src="assets/img/portfolio/03-full.jpg"
-                    alt="..."
-                  />
-                  <p>
-                    Use this area to describe your project. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Est blanditiis
-                    dolorem culpa incidunt minus dignissimos deserunt repellat
-                    aperiam quasi sunt officia expedita beatae cupiditate,
-                    maiores repudiandae, nostrum, reiciendis facere nemo!
-                  </p>
-                  <ul class="list-inline">
-                    <li>Date: January 2021</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
-                  </ul>
-                  <button
-                    class="btn btn-primary"
-                    data-dismiss="modal"
-                    type="button"
-                  >
-                    <i class="fas fa-times mr-1"></i>
-                    Close Project
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal 4-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal4"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <img src="assets/img/close-icon.svg" alt="Close modal" />
-          </div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </p>
-                  <img
-                    class="img-fluid d-block mx-auto"
-                    src="assets/img/portfolio/04-full.jpg"
-                    alt="..."
-                  />
-                  <p>
-                    Use this area to describe your project. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Est blanditiis
-                    dolorem culpa incidunt minus dignissimos deserunt repellat
-                    aperiam quasi sunt officia expedita beatae cupiditate,
-                    maiores repudiandae, nostrum, reiciendis facere nemo!
-                  </p>
-                  <ul class="list-inline">
-                    <li>Date: January 2021</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
-                  </ul>
-                  <button
-                    class="btn btn-primary"
-                    data-dismiss="modal"
-                    type="button"
-                  >
-                    <i class="fas fa-times mr-1"></i>
-                    Close Project
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal 5-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal5"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <img src="assets/img/close-icon.svg" alt="Close modal" />
-          </div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </p>
-                  <img
-                    class="img-fluid d-block mx-auto"
-                    src="assets/img/portfolio/05-full.jpg"
-                    alt="..."
-                  />
-                  <p>
-                    Use this area to describe your project. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Est blanditiis
-                    dolorem culpa incidunt minus dignissimos deserunt repellat
-                    aperiam quasi sunt officia expedita beatae cupiditate,
-                    maiores repudiandae, nostrum, reiciendis facere nemo!
-                  </p>
-                  <ul class="list-inline">
-                    <li>Date: January 2021</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
-                  </ul>
-                  <button
-                    class="btn btn-primary"
-                    data-dismiss="modal"
-                    type="button"
-                  >
-                    <i class="fas fa-times mr-1"></i>
-                    Close Project
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal 6-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal6"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <img src="assets/img/close-icon.svg" alt="Close modal" />
-          </div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </p>
-                  <img
-                    class="img-fluid d-block mx-auto"
-                    src="assets/img/portfolio/06-full.jpg"
-                    alt="..."
-                  />
-                  <p>
-                    Use this area to describe your project. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Est blanditiis
-                    dolorem culpa incidunt minus dignissimos deserunt repellat
-                    aperiam quasi sunt officia expedita beatae cupiditate,
-                    maiores repudiandae, nostrum, reiciendis facere nemo!
-                  </p>
-                  <ul class="list-inline">
-                    <li>Date: January 2021</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
-                  </ul>
-                  <button
-                    class="btn btn-primary"
-                    data-dismiss="modal"
-                    type="button"
-                  >
-                    <i class="fas fa-times mr-1"></i>
-                    Close Project
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+ 
     <!-- Bootstrap core JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -944,5 +872,7 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+  
+  
   </body>
 </html>

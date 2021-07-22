@@ -54,4 +54,6 @@
     // Collapse the navbar when page is scrolled
     $(window).on('scroll', navbarCollapse);
 
+   
 })(jQuery); // End of use strict
+
